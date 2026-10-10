@@ -97,7 +97,7 @@ respond:
 
 To verify rule efficacy, I re-simulated the download cradle. LimaCharlie matched the execution pattern immediately and raised a high-severity alert in the real-time Detections console.
 
-![Detection Alert Triggered](img/04_alert.jpeg)
+![Detection Alert Triggered](img/04_alert_trigger.jpeg)
 
 ---
 
