@@ -1,0 +1,14 @@
+detect:
+  event: NEW_PROCESS
+  op: and
+  rules:
+    - op: ends with
+      path: event/FILE_PATH
+      value: powershell.exe
+    - op: contains
+      path: event/COMMAND_LINE
+      value: System.Net.WebClient
+
+respond:
+  - action: report
+    name: Suspicious PowerShell Download Detected
